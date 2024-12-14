@@ -1,0 +1,120 @@
+body { 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+} 
+
+.header { 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    background-color: #3b4a6b; 
+    padding: 20px 40px; 
+} 
+
+.logo { 
+    width: 80px; 
+} 
+
+nav { 
+    display: flex; 
+    align-items: center; 
+} 
+
+.home-link { 
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px; 
+    font-weight: bold; 
+} 
+
+.main-container { 
+    background-color: #3b4a6b; 
+    border-radius: 20px; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); 
+    width: 75%; /* Exact width of the first design */ 
+    height: 550px; /* Exact height of the first design */ 
+    margin: 50px auto; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 40px; 
+} 
+
+.form-section { 
+    flex: 1; 
+    margin-right: 50px; /* Matches spacing to the image */ 
+    text-align: left; 
+} 
+
+h1 { 
+    margin-top: 0; 
+    margin-bottom: 20px; 
+    color: #fff; 
+    font-size: 36px; 
+    font-weight: bold; 
+} 
+
+.form-group { 
+    margin-bottom: 20px; 
+} 
+
+.form-group label { 
+    display: block; 
+    color: #fff; 
+    margin-bottom: 5px; 
+    font-size: 16px; 
+} 
+
+.form-group input { 
+    width: 100%; 
+    max-width: 280px; /* Matches the input field width in the first image */ 
+    padding: 10px; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+} 
+
+.submit-btn { 
+    width: 100%; 
+    max-width: 150px; 
+    padding: 12px; 
+    background-color: #fff; 
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold; 
+    color: #3b4a6b; 
+    margin-top: 20px; 
+} 
+
+.login-link { 
+    margin-top: 10px; 
+    text-align: left; 
+} 
+
+.login-link a { 
+    color: #fff; 
+    text-decoration: none; 
+    font-size: 14px; 
+    font-weight: bold; 
+} 
+
+.login-link a:hover { 
+    text-decoration: underline; 
+} 
+
+.image-section { 
+    width: 50%; /* Matches the proportions of the first design */ 
+    height: 100%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+} 
+
+.image-section img { 
+    width: 80%; 
+    height: auto; 
+    border-radius: 10px; 
+} 
